@@ -1,0 +1,24 @@
+html, body
+{
+    margin:0;
+    border:0;
+    width:100%;
+    height:100%;
+    background: rgb(50, 50, 50);
+}
+
+.pagina
+{
+    background: rgb(255, 255, 255);
+    width:100%;
+    max-width:1400px;
+    min-height:100%;
+    margin: 0 auto;
+}
+
+.resp
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}

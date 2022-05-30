@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+html, body
+{
+    margin:0;
+    border:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(220, 20, 60);
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper
+{
+    margin:0 auto;
+    background:rgb(244, 247, 217);
+    width:100%;
+    max-width:1200px;
+    height:auto;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 250px 5fr;
+}
+
+.menu-apoio
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:10px;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.item-menu-apoio
+{
+    background: rgb(230,170,85);
+    color: rgb(51, 51,50);
+    width:150px;
+    height:auto;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-menu-apoio:hover
+{
+    background: rgb(219, 197, 165); 
+}
+
+.conteudo
+{
+    display:grid;
+    grid-template-columns: 250px 5fr;
+}
+
+nav
+{
+    display: grid;
+    grid-template-rows: repeat(7, auto);
+    gap:10px;
+    padding: 10px;
+    align-content: flex-start;
+}
+
+.menu
+{
+    background: rgb(230,170,85);
+    padding:10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.menu:hover
+{
+    background: rgb(219, 197, 165); 
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.resp
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.logo
+{
+    padding:20px;
+}
+
+main
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    background: white;
+}
+
+main > div
+{
+    padding:50px;
+    text-align: center;
+}
+.espaco
+{
+    padding: 10px;
+}
+
+.logo
+{
+    padding: 20px;
+}
+
+.lanche
+{
+    background:rgb(220, 20, 60);
+    display:inline;
+    font-size: 20pt;
+    font-weight: 700;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.lanche:hover
+{
+    color: rgb(232, 218, 245);
+    cursor:default;
+}
+
+i
+{
+    font-style: normal;
+    font-size: 32pt;
+    margin-right: 20px;
+}
+
+.preco
+{
+    font-weight: 700;
+    font-size: 15pt;
+    cursor: pointer;
+    padding: 10px;
+}
+.facebook
+{
+    color: #3366cc;
+}
+.instagram
+{
+    color: #939;
+}
+
+.twitter
+{
+    color: #33ccff;
+}
+footer
+{
+    display:grid;
+    grid-template-columns: 5fr 250px;
+    grid-template-rows:auto auto;
+    background: rgb(244, 247, 217);
+    gap:10px;
+    padding:50px;
+}
+.span-colunas
+{
+    grid-column: 1 / span 2;
+}
+
+.centralizado
+{
+    text-align: center;
+}
+
+.email
+{
+    font-size: 22pt;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.aueba
+{
+    color: #686868;
+    padding-bottom: 20px;
+}
+
+.aueba-email
+{
+    font-weight:700;
+}
+
+.aueba-email:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link
+{
+    text-decoration: none;
+}
+
+.link-rodape
+{
+    display: inline;
+    padding: 10px;
+}
+
+.link-rodape:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}

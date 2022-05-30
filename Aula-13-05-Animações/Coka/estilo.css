@@ -1,0 +1,24 @@
+html, body
+{
+    border: 0px;
+    margin: 0px,;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo
+{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.caixa
+{
+    outline: 5px solid red;
+}
+
+.efeito
+{
+    transform: skewY(30deg);
+}

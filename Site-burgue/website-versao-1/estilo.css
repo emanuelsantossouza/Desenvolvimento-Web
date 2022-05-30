@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+
+html, body
+{
+    margin:0;
+    border:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background-color: rgb(220, 20, 60);
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper
+{
+    margin:0 auto;
+    background:rgb(240,244,228);
+    width:100%;
+    max-width:1200px;
+    height:auto;
+}
+
+header
+{
+    display: grid;
+    grid-template-columns: 250px 5fr;
+}
+
+.menu-apoio
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap:10px;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+
+.item-menu-apoio
+{
+    background: rgb(230,170,85);
+    width:150px;
+    height:auto;
+    padding: 10px 0px 10px 0px;
+    border-radius:5px;
+    cursor: pointer;
+    font-weight: 900;
+    text-align: center;
+}
+
+.item-menu-apoio:hover
+{
+    background: rgb(219, 197, 165);
+    
+}
+
+.conteudo
+{
+    display:grid;
+    grid-template-columns: 250px 5fr;
+}
+
+nav
+{
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.resp
+{
+    width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+.logo
+{
+    padding:20px;
+}
