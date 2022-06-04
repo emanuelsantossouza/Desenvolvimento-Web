@@ -1,0 +1,138 @@
+html, body
+{
+    margin:0;
+    border:0;
+    box-sizing:border-box;
+    background: rgb(0,0,0);
+    display:grid;
+    place-items:center;
+    width:100%;
+    height:100%;
+}
+
+.tela
+{
+    width:50%;
+    height:500px;
+    margin:0 auto;
+    border: 5px solid rgb(255,255,255);
+    border-bottom: 15px solid rgb(0,130,14);
+    position: relative;
+    overflow:hidden;
+    background: linear-gradient(#00deff, #E0F6FF);
+}
+
+.tubo
+{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    right: -80px;
+    animation: tubo 1.5s infinite linear;
+}
+
+.mario
+{
+    width:150px;
+    position:absolute;
+    bottom:0;
+}
+
+.nuven1
+{
+    position: absolute;
+    width: 100px;
+    animation: nuvem1voando 25s infinite linear;
+    top: 230px;
+}
+
+.nuven2
+{
+    position: absolute;
+    width:200px;
+    animation: nuvem2voando 30s infinite linear;
+    top:60px; 
+}
+
+.nuven3
+{ 
+position: absolute;
+width: 100px;
+animation: nuvem3voando 40s infinite linear;
+top: 230px;
+}
+
+.pular
+{
+    animation: pular 500ms ease-out;
+}
+
+@keyframes tubo 
+{
+    from
+    {
+        right: -80px;
+    }   
+
+    to
+    {
+        right: 100%;
+    }
+}
+
+@keyframes pular 
+{
+    0%
+    {
+        bottom:0;
+    }
+
+    50%
+    {
+        bottom:200px;
+    }
+    
+    100%
+    {
+        bottom:0;
+    }
+}
+
+@keyframes nuvem1voando 
+{
+    from
+    {
+        right:-100px;
+    }
+
+    to
+    {
+        right:100%;
+    }    
+}
+
+@keyframes nuvem2voando 
+{
+    from
+    {
+        right:-200px;
+    }    
+
+    to
+    {
+        right: 100%;
+    }
+}
+
+@keyframes nuvem3voando
+{
+    from
+    {
+        right: -250px;
+    }    
+
+    to
+    {
+        right:100%;
+    }
+}

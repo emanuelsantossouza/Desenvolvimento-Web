@@ -1,0 +1,43 @@
+html, body
+{
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background: #c98181;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto ;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+}
+
+.item
+{
+    width: auto;
+    height: auto;
+    background: #e4d9f89c ;
+}
+
+.responsivo
+{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.wrapper
+{
+    margin: 0 auto ;
+    background-color: #8d4a0c9c;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    max-width: 1200px;
+}

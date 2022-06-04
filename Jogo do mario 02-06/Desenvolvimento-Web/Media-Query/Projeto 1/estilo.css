@@ -1,0 +1,46 @@
+body, html
+{
+    border: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:500px) 
+{
+    .vertical
+    {
+        display: block;
+    }
+
+    .horixontal
+    {
+        display: none;
+    }
+}
+
+@media (min-width:501px)
+{
+    .vertical
+    {
+        display: none;
+    }
+
+    .horixontal
+    {
+        display: block;
+    }
+}
+
+.resp
+{
+    width: 100%;
+    max-width:100%;
+    height: auto;
+}
+
+.banner
+{
+    width: 100%;
+    height: auto;
+}
